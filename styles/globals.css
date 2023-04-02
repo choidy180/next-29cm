@@ -9,8 +9,41 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
 	position: relative;
 	box-sizing: border-box;
 	font-family: 'Pretendard-Regular';
+}
+
+@layer base {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    h1, h2, h3, h4, h5, h6, p, span {
+        word-break: break-all;
+    }
+}
+
+@layer components {
+    /* Header */
+    .header-title {
+        @apply font-[GmarketSansMedium] font-[900] text-[34px] leading-[30px] cursor-pointer mr-[28px]
+        border-solid border-b-[6px] border-b-transparent hover:border-black
+    }
+    .header-sub {
+        @apply font-[GmarketSansMedium] text-[14px] leading-[16p] font-[700] py-[2px] cursor-pointer mr-[16px]
+        border-solid border-b-[4px] border-b-transparent hover:border-black
+    }
+    .header-sub-sub {
+        @apply border-solid border-b-[4px] border-b-transparent hover:border-black cursor-pointer
+    }
 }
