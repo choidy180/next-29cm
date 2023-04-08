@@ -1,0 +1,61 @@
+{
+    "name": "digital",
+    "items": [
+        [
+            {
+                "title": "컴퓨터,디지털",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "ALL",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "NEW",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "음향기기",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "모바일,웨어러블",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "PC,노트북",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "게임",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "사진",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            }
+        ],
+        [
+            {
+                "title": " ",
+                "link": " "
+            },
+            {
+                "title": "자동차용품,장난감",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            }
+        ],
+        [
+            {
+                "title": " ",
+                "link": " "
+            }
+        ],
+        [
+            {
+                "title": " ",
+                "link": " "
+            }
+        ]
+    ]
+}

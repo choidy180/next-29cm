@@ -1,0 +1,101 @@
+{
+    "name": "beauty",
+    "items": [
+        [
+            {
+                "title": "뷰티",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "ALL",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "NEW",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "선물세트",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "스킨케어",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "EXCLUSIVE",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "채식주의",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "친환경 패키지",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            }
+        ],
+        [
+            {
+                "title": " ",
+                "link": " "
+            },
+            {
+                "title": "자연유래",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "바디케어",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "헤어케어",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "메이크업",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "네일, 디자인타투",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "향수",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "여성용품",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            }
+        ],
+        [
+            {
+                "title": " ",
+                "link": " "
+            },
+            {
+                "title": "뷰티기기, 마스크",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "남성뷰티",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "스킨타입",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "이너뷰티",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            }
+        ],
+        [
+            {
+                "title": " ",
+                "link": " "
+            }
+        ]
+    ]
+}

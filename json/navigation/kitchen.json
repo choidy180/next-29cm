@@ -1,0 +1,81 @@
+{
+    "name": "kitchen",
+    "items": [
+        [
+            {
+                "title": "주방,생활",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "ALL",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "NEW",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "PREMIUM",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "LIVING TASTE",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "쿡웨어",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "테이블웨어",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "침구",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            }
+        ],
+        [
+            {
+                "title": " ",
+                "link": " "
+            },
+            {
+                "title": "홈패브릭",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "욕실",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "수납,정리",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "홈케어",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "반려동물",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "책,음반",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            }
+        ],
+        [
+            {
+                "title": " ",
+                "link": " "
+            }
+        ],
+        [
+            {
+                "title": " ",
+                "link": " "
+            }
+        ]
+    ]
+}
