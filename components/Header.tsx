@@ -12,6 +12,10 @@ import kitchenJson from '../json/navigation/kitchen.json'
 import electronicsJson from '../json/navigation/electronics.json'
 import digitalJson from '../json/navigation/digital.json'
 import beautyJson from '../json/navigation/beauty.json'
+import foodJson from '../json/navigation/food.json'
+import leisureJson from '../json/navigation/leisure.json'
+import kidsJson from '../json/navigation/kids.json'
+import cultureJson from '../json/navigation/culture.json'
 
 const Header = () => {
     const [menuState, setMenuState] = useState<any>(null)
@@ -26,30 +30,37 @@ const Header = () => {
                     height={30}
                 />
             </div>
-            <div className="w-full h-[36px] flex justify-start items-center mt-[20px] px-[50px]">
+            <div className="w-full min-w-[1200px] h-[36px] flex justify-start items-center mt-[20px] px-[50px]">
                 <h1 className="header-title">Special-Order</h1>
                 <h1 className="header-title">Showcase</h1>
                 <h1 className="header-title">PT</h1>
                 <h1 className="header-title">Welove</h1>
             </div>
-            <div className="w-full flex justify-start items-center mt-[8px] px-[50px]" onMouseLeave={() => setMenuState(null)}>
-                <span className="header-sub">BEST</span>
-                <span className="header-sub" onMouseOver={() => setMenuState(womenJson)}>WOMEN</span>
-                <span className="header-sub" onMouseOver={() => setMenuState(menJson)}>MEN</span>
-                <span className="header-sub" onMouseOver={() => setMenuState(interiorJson)}>INTERIOR</span>
-                <span className="header-sub" onMouseOver={() => setMenuState(kitchenJson)}>KITCHEN</span>
-                <span className="header-sub" onMouseOver={() => setMenuState(electronicsJson)}>ELECTRONICS</span>
-                <span className="header-sub" onMouseOver={() => setMenuState(digitalJson)}>DIGITAL</span>
-                <span className="header-sub" onMouseOver={() => setMenuState(beautyJson)}>BEAUTY</span>
-                <span className="header-sub" onMouseOver={() => setMenuState(interiorJson)}>FOOD</span>
-                <span className="header-sub" onMouseOver={() => setMenuState(interiorJson)}>LEISURE</span>
-                <span className="header-sub" onMouseOver={() => setMenuState(interiorJson)}>KIDS</span>
-                <span className="header-sub" onMouseOver={() => setMenuState(interiorJson)}>CULTURE</span>
+            <div className="flex justify-start items-center mt-[8px] px-[50px]" onMouseLeave={() => setMenuState(null)}>
+                <div className="border-r-[#a7a7a7] border-solid border-r-[1.4px] flex flex-wrap justify-start items-start mr-[160px] min-[1400px]:mr-[0px]">                
+                    <span className="header-sub">BEST</span>
+                    <span className="header-sub" onMouseOver={() => setMenuState(womenJson)}>WOMEN</span>
+                    <span className="header-sub" onMouseOver={() => setMenuState(menJson)}>MEN</span>
+                    <span className="header-sub" onMouseOver={() => setMenuState(interiorJson)}>INTERIOR</span>
+                    <span className="header-sub" onMouseOver={() => setMenuState(kitchenJson)}>KITCHEN</span>
+                    <span className="header-sub" onMouseOver={() => setMenuState(electronicsJson)}>ELECTRONICS</span>
+                    <span className="header-sub" onMouseOver={() => setMenuState(digitalJson)}>DIGITAL</span>
+                    <span className="header-sub" onMouseOver={() => setMenuState(beautyJson)}>BEAUTY</span>
+                    <span className="header-sub" onMouseOver={() => setMenuState(foodJson)}>FOOD</span>
+                    <span className="header-sub" onMouseOver={() => setMenuState(leisureJson)}>LEISURE</span>
+                    <span className="header-sub" onMouseOver={() => setMenuState(kidsJson)}>KIDS</span>
+                    <span className="header-sub" onMouseOver={() => setMenuState(cultureJson)}>CULTURE</span>
+                    <div className="flex flex-col absolute top-[7px] right-0 min-[1200px]:flex-row mr-[-100px] min-[1200px]:mr-[-160px] text-[15px] space-y-[2px] min-[1200px]:space-y-[-6px]" onMouseOver={() => setMenuState(null)}>
+                        <span className="header-sub-sub w-auto ml-[16px] leading-[14px] py-[4px] mt-[-6px]">Event</span>
+                        <span className="header-sub-sub w-auto ml-[16px] leading-[14px] py-[4px] mt-[-6px]">LookBook</span>
+                    </div>
+                </div>
+
 
                 {menuState && (
                     <div 
                         className="
-                            absolute w-full py-[20px] px-[50px] top-[28px] left-0 border-[1px] border-solid border-[#e9e9e9] bg-white z-10
+                            absolute w-full py-[20px] px-[50px] top-[58px] xl:top-[28px] left-0 border-[1px] border-solid border-[#e9e9e9] bg-white z-10
                             flex justify-start items-start 
                         "
                     >
@@ -93,9 +104,11 @@ const Header = () => {
                                                         ) :
                                                         (
                                                             <div 
-                                                                className="w-full text-[14px] cursor-pointer font-medium hover:font-[700]" 
+                                                                className="text-[14px] cursor-pointer font-medium hover:font-[700]" 
                                                                 onClick={() => router.push(content.link)}
-                                                            >{content.title}</div>
+                                                            >
+                                                                {content.title}
+                                                            </div>
                                                         )
                                                     }
                                                 </>
@@ -107,13 +120,8 @@ const Header = () => {
                         </div>
                     </div>
                 )}
-
-                <div className="border-l-[#a7a7a7] border-solid border-l-[1.4px] mt-[-6px]" onMouseOver={() => setMenuState(null)}>
-                    <span className="header-sub-sub ml-[16px] leading-[14px] py-[4px] mt-[-6px]">Event</span>
-                    <span className="header-sub-sub ml-[16px] leading-[14px] py-[4px] mt-[-6px]">LookBook</span>
-                </div>
             </div>
-            <div className="absolute right-[50px] top-[38px] flex items-center space-x-[14px] font-[300]">
+            <div className="absolute right-[50px] top-[44px] items-center space-x-[14px] font-[300] hidden md:flex">
                 <p className="text-[14px] flex justify-center items-center space-x-[4px] cursor-pointer">
                     <FaUser className=""/>
                     <span>MY PAGE</span>

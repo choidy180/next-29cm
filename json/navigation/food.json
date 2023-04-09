@@ -1,0 +1,53 @@
+{
+    "name": "Food",
+    "items": [
+        [
+            {
+                "title": "뷰티",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "ALL",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "NEW",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "선물세트",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "음료",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "가공식품",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "신선, 냉장",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            }
+        ],
+        [
+            {
+                "title": " ",
+                "link": " "
+            }
+        ],
+        [
+            {
+                "title": " ",
+                "link": " "
+            }
+        ],
+        [
+            {
+                "title": " ",
+                "link": " "
+            }
+        ]
+    ]
+}

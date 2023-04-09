@@ -1,0 +1,49 @@
+{
+    "name": "KIDS",
+    "items": [
+        [
+            {
+                "title": "유아, 아동",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "ALL",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "NEW",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "의류",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "신발, 가방",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            },
+            {
+                "title": "아동, 홈",
+                "link": "https://shop.29cm.co.kr/category/main?category=268100100"
+            }
+        ],
+        [
+            {
+                "title": " ",
+                "link": " "
+            }
+        ],
+        [
+            {
+                "title": " ",
+                "link": " "
+            }
+        ],
+        [
+            {
+                "title": " ",
+                "link": " "
+            }
+        ]
+    ]
+}
