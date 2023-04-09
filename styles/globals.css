@@ -27,6 +27,7 @@
 	position: relative;
 	box-sizing: border-box;
 	font-family: 'NanumSquareNeo-Variable';
+    overflow-x: hidden;
 }
 
 @layer base {
@@ -52,5 +53,10 @@
     }
     .header-sub-sub {
         @apply border-solid border-b-[4px] border-b-transparent hover:border-black cursor-pointer
+    }
+
+    /* Bottom */
+    .bottom-notice {
+        @apply text-[12px] leading-[12px] mt-[12px] h-[14px] flex justify-center items-center cursor-pointer border-b-transparent border-b-[1px] border-solid hover:border-b-black
     }
 }
