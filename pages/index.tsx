@@ -7,7 +7,7 @@ import MainHomeRightBox from '@/components/home/rightBox'
 export default function Home() {
 	return (
 		<>
-			<div className='w-full flex justify-center items-start'>
+			<div className='w-full flex justify-center items-start overflow-x-hidden'>
 				<MainHomeLeftBox/>
 				<div className='w-[calc(30vw-15px)] min-w-[280px] flex flex-col justify-center items-center'>
 					<div className='w-full h-[45vw] overflow-hidden flex justify-center items-center'>

@@ -21,7 +21,7 @@ const Header = () => {
     const [menuState, setMenuState] = useState<any>(null)
     const router = useRouter()
     return (
-        <div className="w-full h-auto py-[40px]">
+        <div className="w-full h-auto py-[40px] overflow-x-visible">
             <div className="w-[120px] h-[30px] ml-[50px]">
                 <Image
                     src={CmLogo}
@@ -30,16 +30,16 @@ const Header = () => {
                     height={30}
                 />
             </div>
-            <div className="w-full min-w-[1200px] h-[36px] flex justify-start items-center mt-[20px] px-[50px]">
+            <div className="w-full min-w-[1200px] h-[44px] flex justify-start items-center mt-[20px] px-[50px]">
                 <h1 className="header-title">Special-Order</h1>
                 <h1 className="header-title">Showcase</h1>
                 <h1 className="header-title">PT</h1>
                 <h1 className="header-title">Welove</h1>
             </div>
-            <div className="flex justify-start items-center mt-[8px] px-[50px]" onMouseLeave={() => setMenuState(null)}>
-                <div className="border-r-[#a7a7a7] border-solid border-r-[1.4px] flex flex-wrap justify-start items-start mr-[160px] min-[1400px]:mr-[0px]">                
+            <div className="flex justify-start items-center mt-[8px] px-[50px] overflow-x-visible" onMouseLeave={() => setMenuState(null)}>
+                <div className="border-r-[#a7a7a7] border-solid border-r-[1.4px] overflow-x-visible flex flex-wrap justify-start items-start mr-[160px] min-[1400px]:mr-[0px]">                
                     <span className="header-sub">BEST</span>
-                    <span className="header-sub" onMouseOver={() => setMenuState(womenJson)}>WOMEN</span>
+                    <span className="header-sub" onMouseOver={() => setMenuState(womenJson)} onClick={() => console.log(menuState)}>WOMEN</span>
                     <span className="header-sub" onMouseOver={() => setMenuState(menJson)}>MEN</span>
                     <span className="header-sub" onMouseOver={() => setMenuState(interiorJson)}>INTERIOR</span>
                     <span className="header-sub" onMouseOver={() => setMenuState(kitchenJson)}>KITCHEN</span>
@@ -60,8 +60,8 @@ const Header = () => {
                 {menuState && (
                     <div 
                         className="
-                            absolute w-full py-[20px] px-[50px] top-[58px] xl:top-[28px] left-0 border-[1px] border-solid border-[#e9e9e9] bg-white z-10
-                            flex justify-start items-start 
+                            absolute w-full py-[20px] px-[50px] top-[108px] z-[999999] xl:top-[28px] left-0 border-[1px] border-solid border-[#e9e9e9]
+                            flex justify-start items-start bg-white
                         "
                     >
                         <div className="w-[680px] flex justify-between items-start">

@@ -44,7 +44,7 @@
 @layer components {
     /* Header */
     .header-title {
-        @apply font-[GmarketSansMedium] font-[900] text-[34px] leading-[30px] cursor-pointer mr-[28px]
+        @apply font-[GmarketSansMedium] font-[900] text-[34px] leading-[38px] cursor-pointer mr-[28px]
         border-solid border-b-[6px] border-b-transparent hover:border-black
     }
     .header-sub {
