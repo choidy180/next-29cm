@@ -30,7 +30,7 @@ const Header = () => {
                     height={30}
                 />
             </div>
-            <div className="w-full min-w-[1200px] h-[44px] flex justify-start items-center mt-[20px] px-[50px]">
+            <div className="w-full min-w-[1200px] h-[42px] flex justify-start items-center mt-[20px] px-[50px]">
                 <h1 className="header-title">Special-Order</h1>
                 <h1 className="header-title">Showcase</h1>
                 <h1 className="header-title">PT</h1>

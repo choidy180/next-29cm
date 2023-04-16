@@ -44,8 +44,8 @@
 @layer components {
     /* Header */
     .header-title {
-        @apply font-[GmarketSansMedium] font-[900] text-[34px] leading-[38px] cursor-pointer mr-[28px]
-        border-solid border-b-[6px] border-b-transparent hover:border-black
+        @apply font-[GmarketSansMedium] font-[900] h-[42px] text-[34px] leading-[38px] cursor-pointer mr-[28px]
+        border-solid border-b-[6px] border-b-transparent hover:border-black !overflow-y-clip
     }
     .header-sub {
         @apply font-[GmarketSansMedium] text-[14px] leading-[16p] font-[700] py-[2px] cursor-pointer mr-[16px]
