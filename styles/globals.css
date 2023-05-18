@@ -8,6 +8,13 @@
     font-weight: 400;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
 
 @font-face {
     font-family: 'GmarketSansMedium';
@@ -44,7 +51,7 @@
 @layer components {
     /* Header */
     .header-title {
-        @apply font-[GmarketSansMedium] font-[900] h-[42px] text-[34px] leading-[38px] cursor-pointer mr-[28px]
+        @apply font-[GmarketSansMedium] font-[900] h-[38px] text-[34px] leading-[38px] cursor-pointer mr-[28px]
         border-solid border-b-[6px] border-b-transparent hover:border-black !overflow-y-clip
     }
     .header-sub {

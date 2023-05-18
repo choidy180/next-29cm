@@ -51,8 +51,8 @@ const Header = () => {
                     <span className="header-sub" onMouseOver={() => setMenuState(kidsJson)}>KIDS</span>
                     <span className="header-sub" onMouseOver={() => setMenuState(cultureJson)}>CULTURE</span>
                     <div className="flex flex-col absolute top-[7px] right-0 min-[1200px]:flex-row mr-[-100px] min-[1200px]:mr-[-160px] text-[15px] space-y-[2px] min-[1200px]:space-y-[-6px]" onMouseOver={() => setMenuState(null)}>
-                        <span className="header-sub-sub w-auto ml-[16px] leading-[14px] py-[4px] mt-[-6px]">Event</span>
-                        <span className="header-sub-sub w-auto ml-[16px] leading-[14px] py-[4px] mt-[-6px]">LookBook</span>
+                        <span className="header-sub-sub w-auto ml-[16px] leading-[14px] py-[4px] !mt-[-4px]">Event</span>
+                        <span className="header-sub-sub w-auto ml-[16px] leading-[14px] py-[4px] !mt-[-4px]">LookBook</span>
                     </div>
                 </div>
 
